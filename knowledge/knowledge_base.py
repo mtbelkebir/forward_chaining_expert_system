@@ -1,8 +1,7 @@
-from typing import AnyStr
-Rule = tuple[set[AnyStr], AnyStr]
+Rule = tuple[set[str], str]
 RuleList = list[Rule]
-Fact = AnyStr
-FactSet = set[AnyStr]
+Fact = str
+FactSet = set[str]
 
 class InferenceEngine:
     def __init__(self, rules: RuleList, facts: FactSet):
