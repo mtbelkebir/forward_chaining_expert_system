@@ -42,7 +42,7 @@ Fact1, Fact2 -> Fact3;
 
 Commands are available for certain special actions.
 
-- `.print`: Prints the current knowledg base with all rules and facts.
+- `.print`: Prints the current knowledge base with all rules and facts.
 - `.quit`: Exists the program.
 - `.help`: Prints the help screen.
 
