@@ -1,7 +1,7 @@
-Rule = tuple[set[str], str]
-RuleList = list[Rule]
 Fact = str
-FactSet = set[str]
+FactSet = set[Fact]
+Rule = tuple[set[Fact], Fact]
+RuleList = list[Rule]
 
 class InferenceEngine:
     def __init__(self, rules: RuleList, facts: FactSet):
