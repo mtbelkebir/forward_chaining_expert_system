@@ -31,8 +31,9 @@ def main(args):
                     print_available_commands()
                 case _:
                     print('Error: Unknown command.')
-        found = inference_engine.infer(query)
-        print(found)
+        else:
+            found = inference_engine.infer(query)
+            print(found)
 
 
 if __name__ == '__main__':
